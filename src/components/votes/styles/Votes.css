@@ -1,0 +1,18 @@
+.Votes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px;
+}
+
+img {
+  height: 20px;
+  filter: saturate(0);
+  cursor: pointer;
+  margin: 5px;
+}
+
+.selected {
+  filter: saturate(1);
+}

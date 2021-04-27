@@ -1,0 +1,12 @@
+.Post {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr 4fr;
+  border: 1px solid black;
+  height: 120px;
+  max-width: 80vw;
+  margin: 4px;
+}
+
+.Post > div {
+  margin-top: 10px;
+}

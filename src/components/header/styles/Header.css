@@ -1,0 +1,15 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    flex-flow: column-reverse;
+    background-color: darkblue;
+    height: 150px;
+    box-shadow: 1px 1px 10px 5px #08345a ;
+    margin-bottom: 20px;
+}
+
+.subheading {
+    background-color: #141616;
+    padding: 30px;
+    color: white;
+}

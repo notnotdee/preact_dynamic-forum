@@ -1,13 +1,11 @@
 import { h } from 'preact';
 import { Router } from 'preact-router';
-import { Header } from '../header/Header';
 import { Main } from '../main/Main';
 
 const App = () => (
   <div id="app">
-    <Header />
     <Router>
-      <Main path="/" />
+      <Main path="/" title="Home" />
     </Router>
   </div>
 );

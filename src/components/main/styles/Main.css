@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Main {
+
+}
+
+.body {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    margin: auto;
+    max-width: 80vw;
+}
